@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <pre><h1 style="color: blue;">                      <u>Registration form</u>          </h1></pre>
+    <br>
+    <form action="">
+
+        <label for="name"> Name :</label>
+        <br>
+        <input type="text" id="name" placeholder="enter your name" name="name">
+        <br>
+        <br>
+        <label for="mail"> Email :</label>
+        <br>
+        <input type="email" id="mail" placeholder="enter your email id" name="mailname">
+        <br>
+        <br>
+        <label for="number"> Phone  :</label>
+        <br>
+        <input type="tel" id="number" placeholder="enter your phone number" name="number">
+        <br>
+        <br>
+        <label for="Occuption">Occuption :</label>
+        <br>
+        <select name="Occuption" id="S">
+        <option value="">Select</option>
+        <option value="Teacher">Teacher</option>
+        <option value="Nurse">Nurse</option>
+        <option value="Doctor">Doctor</option>
+        <option value="others">others</option>
+    </select>
+        <br>
+        <br>
+        <label for="Jobtype">Jobtype :</label>
+        <br>
+        <input type="radio" name="job" id="jobs1">
+        <label for="jobs1">Full time</label>
+        <br>
+        <input type="radio" name="job" id="jobs2" value="Part time">
+        <label for="jobs2">Part time</label>
+        <br>
+        <br>
+
+        <label for="age">Age :</label>
+        <select name="age" id="age">
+        <option value="select">Select your age :</option>
+        <option value="25">25</option>
+        <option value="26">26</option>
+        <option value="27">27</option>
+        <option value="28">28</option>
+        <option value="29">29</option>
+        <option value="30">30</option>
+     </select>
+        <br>
+        <br>
+        <label for="age">Experience <i>(in years)</i> :</label>
+
+        <input type="number" name="age" id="age" placeholder="0" min="0" max="15">
+        <br>
+        <br>
+        <label for="education">Highest Education</label>
+        <br>
+        <select name="Education" id="degree">
+        <option value="Select">Select Education</option>
+        <option value="1st">10th</option>
+        <option value="2d">12th</option>
+        <option value="3rd">Graduation</option>
+        </select>
+        <br>
+        <br>
+
+        <fieldset>
+            <legend>
+                <label for="Types of Interest">Types of Interest : </label>
+            </legend> <br>
+
+            <input type="checkbox" name="html" id="web">
+            <label for="web">HTML</label>
+            <br>
+            <input type="checkbox" name="css" id="web">
+            <label for="web">CSS</label>
+            <br>
+            <input type="checkbox" name="js" id="web">
+            <label for="web">JS</label>
+
+        </fieldset>
+
+        <br>
+        <br>
+        <label for="Comments">Comments :
+    </label>
+        <br>
+        <textarea name="comments" id="Comments" cols="30" rows="3"></textarea>
+
+        <br>
+        <button>Register</button>
+    </form>
+</body>
+
+</html>
